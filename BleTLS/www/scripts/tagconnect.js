@@ -181,11 +181,11 @@ var tagConnect = (function ($) {
         //TODO Disconnect / Close all addresses and empty
         //bleTime.log(device.model);
         var htmlstr, paramsObj, beep;
-        if (bleApp.getPlatform==="android") {
+        if (bleApp.getPlatform().toLowerCase()==="android") {
             beep = new Media("/android_asset/www/res/beep_mp3.mp3");
             beep.play();
         }
-        if (bleApp.getPlatform === "iOS") {
+        if (bleApp.getPlatform().toLowerCase() === "ios") {
             beep = new Media("res/beep_mp3.mp3");
             beep.play();
         }
