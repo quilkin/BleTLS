@@ -5,6 +5,12 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "BleTLS", "BleTLS\BleTLS.jsproj", "{A1F5CA1A-230A-452A-B203-FDD2CEC7D4F0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{88571C29-688D-47BA-BED2-539B9AF5BFFF}"
+	ProjectSection(SolutionItems) = preProject
+		..\TTService\.gitignore = ..\TTService\.gitignore
+		..\TTService\README.md = ..\TTService\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Android = Debug|Android
